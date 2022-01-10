@@ -1,0 +1,65 @@
+#page-container {
+    position: relative;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    background: #F0F0F0;
+    font-family: Lucida Sans Unicode, Helvetica, Arial;
+    font-size: 18pt;
+    text-align: left;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+
+    max-width: 1180px;
+    width: 98%;
+    position: relative;
+    margin: 0px auto;
+    min-height: 100%;
+    overflow-x: hidden;
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, sans-serif;
+
+}
+
+#header {
+    padding: 10px;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom-style: double;
+    border-radius: 12px;
+    background-image: url('../images/header1.jpg');
+}
+
+.img {
+    border-radius: 50%;
+}
+
+.imageBox {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+#footer {
+    position: absolute;
+    display: block;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #F0F0F0;
+
+}
